@@ -13,9 +13,9 @@ function toggleMode() {
   se tivem se light mode, manter a imagem normal*/
 
   const img = document.querySelector("#profile img")
-  if(html.classList.contains("light")){
-    img.setAttribute("src", './assets/avatar-light.png')
-} else  {
-  img.setAttribute('src', './assets/avatar.png')
+  if (html.classList.contains("light")) {
+    img.setAttribute("src", "./assets/avatar-light.png")
+  } else {
+    img.setAttribute("src", "./assets/avatar.png")
   }
 }
