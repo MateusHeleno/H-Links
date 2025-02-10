@@ -39,7 +39,7 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360%;
+  width: 100%;
   max-width: 588px;
   margin: auto;
   margin-top: 56px;
@@ -189,3 +189,4 @@ footer {
     left: 0%;
   }
 }
+/* so para salvar*/
