@@ -33,7 +33,7 @@ body {
 
   /*background: color image repeat postion/size 
   background: url(./assets/bg-mobile.jpg) no-repeat top center/ cover;*/
-} 
+}
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
@@ -175,7 +175,7 @@ footer {
 @keyframes slide-in {
   from {
     left: 0%;
-  }
+  } 
   to {
     left: 50%;
   }
