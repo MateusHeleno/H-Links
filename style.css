@@ -33,7 +33,7 @@ body {
 
   /*background: color image repeat postion/size 
   background: url(./assets/bg-mobile.jpg) no-repeat top center/ cover;*/
-}
+} 
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
@@ -168,7 +168,7 @@ footer {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jgp);
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
 /*animation*/
