@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O H'Links é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://mateusheleno.github.io/Projeto/)
+- [Acesse o projeto finalizado, online](https://mateusheleno.github.io/H-Links/)
 
 ---
 
