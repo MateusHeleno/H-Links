@@ -162,6 +162,40 @@ footer {
   font-size: 14px;
 }
 
+/* Assinatura discreta com identidade visual Mateus Heleno */
+.footer-signature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+
+.signature-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.signature-mark img {
+  display: block;
+  width: 30px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.signature-mark .mark-light {
+  display: none;
+}
+
+.light .signature-mark .mark-dark {
+  display: none;
+}
+
+.light .signature-mark .mark-light {
+  display: block;
+}
+
 /*media queries*/
 @media (min-width: 700px) {
   :root {
