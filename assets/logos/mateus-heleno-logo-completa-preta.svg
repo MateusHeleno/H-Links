@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="m-diag-cp" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#111111" />
+      <stop offset="40%" stop-color="#3A3A3A" />
+      <stop offset="100%" stop-color="#555555" />
+    </linearGradient>
+    <linearGradient id="mid-top-cp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A3A3A" />
+      <stop offset="65%" stop-color="#6E6E6E" />
+      <stop offset="100%" stop-color="#1A1A1A" />
+    </linearGradient>
+    <linearGradient id="h-bot-cp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7A7A7A" />
+      <stop offset="50%" stop-color="#333333" />
+      <stop offset="100%" stop-color="#141414" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(249, 20)">
+    <polygon points="172,56 197,36 197,95 172,95" fill="url(#mid-top-cp)" />
+    <polygon points="112,103 197,36 197,66 112,133" fill="url(#m-diag-cp)" />
+    <polygon points="22,32 112,103 112,133 47,82 47,150 22,169" fill="#141414" />
+    <polygon points="254,121 279,121 279,150 254,169" fill="url(#h-bot-cp)" />
+    <polygon points="172,95 254,95 254,37 279,18 279,121 197,121 197,171 172,190" fill="#141414" />
+  </g>
+  <text x="405" y="295" font-family="'Montserrat', 'Inter', 'Segoe UI', Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="7" fill="#141414" text-anchor="middle">MATEUS HELENO</text>
+  <text x="405" y="335" font-family="'Montserrat', 'Inter', 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="5.5" fill="#333333" text-anchor="middle">DESENVOLVIMENTO DE SOFTWARE</text>
+</svg>

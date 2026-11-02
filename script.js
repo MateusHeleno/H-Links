@@ -13,9 +13,12 @@ function toggleMode() {
   se tivem se light mode, manter a imagem normal*/
 
   const img = document.querySelector("#profile img")
+  const footerLogo = document.querySelector("#footer-logo")
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/avatar-light.png")
+    footerLogo.setAttribute("src", "./assets/logos/mateus-heleno-logo-completa-preta.svg")
   } else {
     img.setAttribute("src", "./assets/avatar.png")
+    footerLogo.setAttribute("src", "./assets/logos/mateus-heleno-logo-completa-branca.svg")
   }
 }
